@@ -13,13 +13,13 @@ Some examples
 
 
 		Simple query
-		```php
+		```
 	    $this->ds->q->selectColumns('user');
 	    $this->ds->q->where('user','email',array('=','something'));
 	    $this->users=$this->ds->queryDo(true);
 		```
 		A more complex query with caching 
-		```php
+		```
 		if($this->ds->isUpdated(array('product','product_category'),$key) || empty($data)){
 					$qo=$this->ds->getSqlObject();
 					$qo->selectColumns('product');
