@@ -1,0 +1,5 @@
+{
+    "require": {
+		"cheprasov/php-simple-profiler":"1.1.0"
+    }
+}
