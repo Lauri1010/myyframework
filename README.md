@@ -1,10 +1,5 @@
 # myyframework
-php framework with advanced sql generation capabilities. With myyFramework you can make complex sql easily and fast and develop using a modular design with "get only what you need" (no database is set if needed, no bloated libraries on every request you do not need)
-Includes the following features
-Sql generation tool for most sql search queries (all join types, multiple join conditions). The tool generates the database mappings. Currently only works on mysql
-Router, Business logic. Built with principle of "don't need don't use". Modular structure
-Other unimplemented and unfinished features such as language translation, CMS. Automatic form generation, pagination tool
-Looking for developers to participate in the project as I do not have the time.
+php framework with advanced sql generation capabilities. With myyFramework you can make complex sql easily and fast and develop using a modular design with "get only what you need" 
 
 Some examples
 
