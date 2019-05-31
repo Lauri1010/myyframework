@@ -1,13 +1,10 @@
 # myyframework
-php framework with advanced sql generation capabilities. 
-With myyFramework you can make complex sql easily and fast and develop using a modular design with "get only what you need" (no database is set if needed, no bloated libraries on every request you do not need)
-
-Includes the followong features
-- Sql generation tool for most sql search queries (all join types, multiple join conditions). The tool generates the database mappings. Currently only works on mysql
-- Router, Business logic. Built with principle of "dont need dont use". Modular structure
-- Other unimplemented and unfinished features such as language translation, CMS. Automatic form generation, pagination tool
-
-**Looking for developers to participate in the project as I do not have the time.**
+php framework with advanced sql generation capabilities. With myyFramework you can make complex sql easily and fast and develop using a modular design with "get only what you need" (no database is set if needed, no bloated libraries on every request you do not need)
+Includes the following features
+Sql generation tool for most sql search queries (all join types, multiple join conditions). The tool generates the database mappings. Currently only works on mysql
+Router, Business logic. Built with principle of "don't need don't use". Modular structure
+Other unimplemented and unfinished features such as language translation, CMS. Automatic form generation, pagination tool
+Looking for developers to participate in the project as I do not have the time.
 
 Some examples
 
@@ -35,15 +32,17 @@ if($this->ds->isUpdated(array('product','product_category'),$key) || empty($data
 ```
 **List of features**
 
-- Database schema generation tool, generate.php in archtypes
-- Easy to create archtypes for project tempalting
+- Database schema generation tool, generate.php in archetypes
+- Easy to create archetypes for project templating
 - Advanced SQL query generator with low footprint in terms of performance (works basically by constructing the query from blocks)
 - Modular structure: path, logic and view files. Simple but easy to use pathing system
-		
+
 **List of unfinished features**
-- Sessions
+- Caching system finalizing. 
 - ORM and Forms
 - Pagination
-- Transaltions
+- Translations
 - Automatic form generation tool
+- Sessions unfinished
+
 
