@@ -3,7 +3,7 @@ php framework with advanced sql generation capabilities. With myyFramework you c
 
 ## To get started: 
 1. Create a database (using heidi sql for instance) in mysql. 
-2. Generate database schema mappings with console.php (examples in comments).  Remember to set the config in <appname>/config/config.php
+2. Generate database schema mappings with console.php (examples in comments).  Remember to set the config in apps/your-app-name/config/config.php
 
 ## Some examples
 
