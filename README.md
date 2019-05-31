@@ -1,7 +1,11 @@
 # myyframework
 php framework with advanced sql generation capabilities. With myyFramework you can make complex sql easily and fast and develop using a modular design with "get only what you need" 
 
-Some examples
+##To get started: 
+1. Create a database (using heidi sql for instance) in mysql. 
+2. Generate database schema mappings with console.php (examples in comments).  
+
+##Some examples
 
 **Conroller class mapped to spesific paths**
 
