@@ -7,7 +7,7 @@ Includes the followong features
 - Router, Business logic. Built with principle of "dont need dont use". Modular structure
 - Other unimplemented and unfinished features such as language translation, CMS. Automatic form generation, pagination tool
 
-** Looking for developers to participate in the project as I do not have the time. **
+**Looking for developers to participate in the project as I do not have the time.**
 
 Some examples
 
@@ -34,14 +34,14 @@ Some examples
 					trigger_error("Error in APCu caching", E_USER_ERROR);
 		}
 		
-** List of features **
+**List of features**
 
 - Database schema generation tool, generate.php in archtypes
 - Easy to create archtypes for project tempalting
 - Advanced SQL query generator with low footprint in terms of performance (works basically by constructing the query from blocks)
 - Modular structure: path, logic and view files. Simple but easy to use pathing system
 		
-** List of unfinished features **
+**List of unfinished features**
 - Sessions
 - ORM and Forms
 - Pagination
