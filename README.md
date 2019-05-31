@@ -1,5 +1,6 @@
 # myyframework
-php framework with advanced sql generation capabilities. With myyFramework you can make complex sql easily and fast and develop using a modular design with "get only what you need" 
+php framework with advanced sql generation capabilities. With myyFramework you can make complex sql easily and fast and develop using a modular design with "get only what you need".
+Note: this this is currently a work in progress, see below for details for participation in the project. 
 
 ## To get started: 
 1. Create a database (using heidi sql for instance) in mysql. 
